@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avinash Kumar | Personal Website</title>
+<meta name="description" content="Welcome to the personal portfolio of Avinash Kumar.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,sans-serif;
+  background:#080d19;color:white;
+  line-height:1.6;
+}
+header{
+  padding:22px 8%;display:flex;
+  justify-content:space-between;align-items:center;
+  background:#10182a;
+}
+.logo{font-size:23px;font-weight:bold;color:#54d6ff}
+nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{
+  min-height:75vh;display:flex;
+  flex-direction:column;justify-content:center;
+  align-items:center;text-align:center;padding:40px 20px;
+  background:radial-gradient(circle at top,#173c62,#080d19 65%);
+}
+.hero h1{font-size:clamp(38px,8vw,65px);margin:15px 0}
+.hero h1 span{color:#54d6ff}
+.hero p{color:#c3cede;max-width:550px}
+.tag{color:#54d6ff;letter-spacing:3px}
+.btn{
+  display:inline-block;margin-top:25px;
+  background:#54d6ff;color:#07111e;
+  padding:12px 25px;border-radius:30px;
+  text-decoration:none;font-weight:bold;
+}
+section{padding:65px 8%;text-align:center}
+h2{font-size:30px;margin-bottom:25px;color:#54d6ff}
+.about{max-width:700px;margin:auto;color:#c3cede}
+.cards{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:18px;margin-top:25px;
+}
+.card{
+  background:#111d32;padding:25px;border-radius:15px;
+  border:1px solid #243955;
+}
+.card h3{color:#54d6ff;margin-bottom:10px}
+.social a{
+  display:inline-block;color:#54d6ff;
+  border:1px solid #54d6ff;padding:10px 18px;
+  border-radius:25px;margin:7px;text-decoration:none;
+}
+footer{padding:25px;text-align:center;background:#10182a;color:#9daec3}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">AVINASH.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Social</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="tag">WELCOME TO MY WEBSITE</div>
+  <h1>Hi, I'm <span>Avinash Kumar</span></h1>
+  <p>Student • Dreamer • Future Software Engineer</p>
+  <p>Learning today, building tomorrow.</p>
+  <a href="#about" class="btn">Explore My World</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="about">
+    Hello! I'm Avinash Kumar, a Class 11 student
+    passionate about technology, computers,
+    creativity and learning new skills.
+    My dream is to become a successful software engineer
+    and create something meaningful.
+  </p>
+</section>
+
+<section id="education">
+  <h2>My Education</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Class 11th</h3>
+      <p>Currently studying</p>
+    </div>
+    <div class="card">
+      <h3>Science Stream</h3>
+      <p>PCMB</p>
+    </div>
+    <div class="card">
+      <h3>My Interest</h3>
+      <p>Programming & Technology</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Connect With Me</h2>
+  <p class="about">Follow my journey on social media.</p>
+  <div class="social">
+    <a href="https://instagram.com/YOUR_USERNAME">Instagram</a>
+    <a href="https://youtube.com/@YOUR_CHANNEL">YouTube</a>
+    <a href="https://github.com/avinashkumar">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Avinash Kumar | Made with ❤️
+</footer>
+
+</body>
+</html>
